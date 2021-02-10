@@ -62,5 +62,3 @@ Duplo-click em C:\apache-tomcat-9.0.43\bin\shutdown.bat
 Código fonte disponível em:
 ============================
 https://github.com/juankfe/spotifyrestapi
-(e no diretório que você baixou no passo 1)
-
