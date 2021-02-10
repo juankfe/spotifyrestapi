@@ -50,7 +50,7 @@ public class IndexController {
 	private ChamadaRepository chamadaRepository;
 	  
 	
-	@GetMapping(value="/{cidade}", produces="application/json")
+	@GetMapping(value="/cidade/{cidade}", produces="application/json")
 	public ResponseEntity<Playlist> init(@PathVariable(value="cidade") String cidade){
 		
 		String urlRequisitada = "http://api.openweathermap.org/data/2.5/weather?q="
@@ -68,7 +68,7 @@ public class IndexController {
 		
 	}
 	
-	@GetMapping(value="/{latitude}/{longitude}", produces="application/json")
+	@GetMapping(value="/coordenadas/{latitude}/{longitude}", produces="application/json")
 	public ResponseEntity<Playlist> init(@PathVariable(value="latitude") String latitude, 
 			@PathVariable(value="longitude") String longitude){
 		
