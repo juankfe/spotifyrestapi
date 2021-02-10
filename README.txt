@@ -9,7 +9,8 @@ Instruções de instalação
 C:\restapimusica
 
 4. Baixe o projeto do github na pasta criada no passo anterior.
-https://github.com/juankfe/spotifyrestapi
+git bash here
+git clone https://github.com/juankfe/spotifyrestapi
 
 5. Faça o download do Apache Tomcat 9.0.43:
 https://tomcat.apache.org/download-90.cgi
