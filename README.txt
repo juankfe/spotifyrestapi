@@ -51,5 +51,6 @@ http://localhost:8080/41.3888/2.159
 Duplo-click em C:\apache-tomcat-9.0.43\bin\shutdown.bat
 
 9. Código fonte disponível em:
-C:\restapimusica
+https://github.com/juankfe/spotifyrestapi
+(e no diretório que você baixou no passo 1)
 
